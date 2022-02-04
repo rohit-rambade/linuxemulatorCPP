@@ -1,0 +1,6 @@
+[22/06/2021, 1:46 pm]  : pytz error illa tr
+[22/06/2021, 1:46 pm]  : 1
+
+Go to the the code C:\Users\Mr\anaconda3\envs\pythonProject2\Lib\site-packages\sqlalchemy\util and select compat.py and search for time.clock in code.
+
+Then replace time.clock with time.time and save it.
